@@ -1,0 +1,45 @@
+{
+  "name": "claudesu",
+  "version": "0.1.0",
+  "description": "su for Claude Code — switch between accounts without logging out",
+  "bin": {
+    "csu": "bin/csu.js"
+  },
+  "scripts": {
+    "postinstall": "node install.js"
+  },
+  "files": [
+    "bin/csu.js",
+    "install.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "account",
+    "switch",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santidalmasso/claudesu.git"
+  },
+  "homepage": "https://github.com/santidalmasso/claudesu#readme",
+  "bugs": {
+    "url": "https://github.com/santidalmasso/claudesu/issues"
+  },
+  "license": "MIT"
+}

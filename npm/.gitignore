@@ -1,0 +1,6 @@
+node_modules/
+bin/csu
+bin/csu.exe
+# Bundled into the published package by CI, not committed.
+README.md
+LICENSE
